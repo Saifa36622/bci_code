@@ -2,5 +2,5 @@
 .data
 ./databiosemi
 ./psychopy_data_fromlab
-./s102_pok
-./s103_tee
+.s102_pok
+.s103_tee
