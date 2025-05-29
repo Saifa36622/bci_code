@@ -1,0 +1,574 @@
+70.3477 	INFO 	Loaded monitor calibration from ['2025_05_17 12:48']
+70.5278 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+70.8836 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002A745C1E500>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002A745C1E560>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002A745CDDA50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+70.8836 	EXP 	window1: backgroundImage = ''
+70.8836 	EXP 	window1: backgroundFit = 'none'
+70.9320 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+70.9321 	EXP 	window1: recordFrameIntervals = False
+71.0262 	EXP 	window1: recordFrameIntervals = True
+71.6574 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+74.2517 	INFO 	keyboard.Keyboard is using iohub backend.
+74.2518 	INFO 	keyboard.Keyboard is using iohub backend.
+74.2518 	INFO 	keyboard.Keyboard is using iohub backend.
+74.2518 	EXP 	project: status = STARTED
+74.3280 	EXP 	Created Start_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Start_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+74.3439 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+74.3725 	EXP 	Created faces_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='faces_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+74.3816 	EXP 	Created Endding = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Endding', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Endding block\nThankyou for your patient', units='height', win=Window(...), wrapWidth=1)
+0.0097 	INFO 	Keyboard events cleared
+0.0092 	EXP 	Start_text: autoDraw = True
+3.3864 	DATA 	Keypress: space
+3.4002 	EXP 	Imported blocks/block5.csv as conditions, 60 conditions, 4 params
+3.4007 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'block': 5, 'trial': 1, 'image': 'faces/known/known_88.jpg', 'type': 'known', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.4033 	EXP 	Start_text: autoDraw = False
+4.3843 	EXP 	fixation: autoDraw = True
+5.1586 	WARNING 	Requested image 'faces/known/known_88.jpg' not found but similar filename 'faces/known/known_88.png' exists. This will be used instead but changing the filename is advised.
+5.1905 	INFO 	Keyboard events cleared
+5.1903 	WARNING 	t of last frame was 32.78ms (=1/30)
+5.1903 	EXP 	fixation: autoDraw = False
+5.1903 	EXP 	fixation: autoDraw = False
+5.1903 	EXP 	faces_image: image = 'faces/known/known_88.jpg'
+5.1903 	EXP 	faces_image: autoDraw = True
+6.0648 	DATA 	Keypress: space
+7.1599 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'block': 5, 'trial': 2, 'image': 'faces/unknown/unknown_188.jpg', 'type': 'unknown', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+7.1639 	EXP 	faces_image: autoDraw = False
+8.1473 	EXP 	fixation: autoDraw = True
+9.1649 	INFO 	Keyboard events cleared
+9.1647 	WARNING 	t of last frame was 54.96ms (=1/18)
+9.1647 	EXP 	fixation: autoDraw = False
+9.1647 	EXP 	fixation: autoDraw = False
+9.1647 	EXP 	faces_image: image = 'faces/unknown/unknown_188.jpg'
+9.1647 	EXP 	faces_image: autoDraw = True
+11.1110 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'block': 5, 'trial': 3, 'image': 'faces/unknown/unknown_122.jpg', 'type': 'unknown', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+11.1138 	EXP 	faces_image: autoDraw = False
+12.0974 	EXP 	fixation: autoDraw = True
+12.8270 	INFO 	Keyboard events cleared
+12.8267 	WARNING 	t of last frame was 52.54ms (=1/19)
+12.8267 	EXP 	fixation: autoDraw = False
+12.8267 	EXP 	fixation: autoDraw = False
+12.8267 	EXP 	faces_image: image = 'faces/unknown/unknown_122.jpg'
+12.8267 	EXP 	faces_image: autoDraw = True
+14.7766 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'block': 5, 'trial': 4, 'image': 'faces/unknown/unknown_155.jpg', 'type': 'unknown', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+14.7807 	EXP 	faces_image: autoDraw = False
+15.7640 	EXP 	fixation: autoDraw = True
+16.7490 	INFO 	Keyboard events cleared
+16.7486 	WARNING 	t of last frame was 51.18ms (=1/19)
+16.7486 	EXP 	fixation: autoDraw = False
+16.7486 	EXP 	fixation: autoDraw = False
+16.7486 	EXP 	faces_image: image = 'faces/unknown/unknown_155.jpg'
+16.7486 	EXP 	faces_image: autoDraw = True
+18.7015 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'block': 5, 'trial': 5, 'image': 'faces/known/known_106.jpg', 'type': 'known', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+18.7054 	EXP 	faces_image: autoDraw = False
+19.6850 	EXP 	fixation: autoDraw = True
+20.6659 	WARNING 	Requested image 'faces/known/known_106.jpg' not found but similar filename 'faces/known/known_106.png' exists. This will be used instead but changing the filename is advised.
+20.6955 	INFO 	Keyboard events cleared
+20.6955 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+20.6950 	EXP 	fixation: autoDraw = False
+20.6950 	EXP 	fixation: autoDraw = False
+20.6950 	EXP 	faces_image: image = 'faces/known/known_106.jpg'
+20.6950 	EXP 	faces_image: autoDraw = True
+21.5245 	DATA 	Keypress: space
+22.6701 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'block': 5, 'trial': 6, 'image': 'faces/unknown/unknown_16.jpg', 'type': 'unknown', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+22.6729 	EXP 	faces_image: autoDraw = False
+23.6535 	EXP 	fixation: autoDraw = True
+24.5170 	INFO 	Keyboard events cleared
+24.5167 	EXP 	fixation: autoDraw = False
+24.5167 	EXP 	fixation: autoDraw = False
+24.5167 	EXP 	faces_image: image = 'faces/unknown/unknown_16.jpg'
+24.5167 	EXP 	faces_image: autoDraw = True
+26.4688 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'block': 5, 'trial': 7, 'image': 'faces/unknown/unknown_214.jpg', 'type': 'unknown', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+26.4721 	EXP 	faces_image: autoDraw = False
+27.4513 	EXP 	fixation: autoDraw = True
+28.1896 	INFO 	Keyboard events cleared
+28.1894 	EXP 	fixation: autoDraw = False
+28.1894 	EXP 	fixation: autoDraw = False
+28.1894 	EXP 	faces_image: image = 'faces/unknown/unknown_214.jpg'
+28.1894 	EXP 	faces_image: autoDraw = True
+30.1393 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'block': 5, 'trial': 8, 'image': 'faces/unknown/unknown_14.jpg', 'type': 'unknown', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+30.1431 	EXP 	faces_image: autoDraw = False
+31.1262 	EXP 	fixation: autoDraw = True
+32.0290 	INFO 	Keyboard events cleared
+32.0286 	EXP 	fixation: autoDraw = False
+32.0286 	EXP 	fixation: autoDraw = False
+32.0286 	EXP 	faces_image: image = 'faces/unknown/unknown_14.jpg'
+32.0286 	EXP 	faces_image: autoDraw = True
+33.9683 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'block': 5, 'trial': 9, 'image': 'faces/known/known_38.jpg', 'type': 'known', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+33.9722 	EXP 	faces_image: autoDraw = False
+34.9555 	EXP 	fixation: autoDraw = True
+35.7155 	WARNING 	Requested image 'faces/known/known_38.jpg' not found but similar filename 'faces/known/known_38.png' exists. This will be used instead but changing the filename is advised.
+35.7854 	INFO 	Keyboard events cleared
+35.7849 	EXP 	fixation: autoDraw = False
+35.7849 	EXP 	fixation: autoDraw = False
+35.7849 	EXP 	faces_image: image = 'faces/known/known_38.jpg'
+35.7849 	EXP 	faces_image: autoDraw = True
+36.6419 	DATA 	Keypress: space
+37.7181 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'block': 5, 'trial': 10, 'image': 'faces/unknown/unknown_76.jpg', 'type': 'unknown', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+37.7220 	EXP 	faces_image: autoDraw = False
+38.7025 	EXP 	fixation: autoDraw = True
+39.4397 	INFO 	Keyboard events cleared
+39.4394 	EXP 	fixation: autoDraw = False
+39.4394 	EXP 	fixation: autoDraw = False
+39.4394 	EXP 	faces_image: image = 'faces/unknown/unknown_76.jpg'
+39.4394 	EXP 	faces_image: autoDraw = True
+41.3933 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'block': 5, 'trial': 11, 'image': 'faces/unknown/unknown_111.jpg', 'type': 'unknown', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+41.3972 	EXP 	faces_image: autoDraw = False
+42.3806 	EXP 	fixation: autoDraw = True
+43.1592 	INFO 	Keyboard events cleared
+43.1589 	EXP 	fixation: autoDraw = False
+43.1589 	EXP 	fixation: autoDraw = False
+43.1589 	EXP 	faces_image: image = 'faces/unknown/unknown_111.jpg'
+43.1589 	EXP 	faces_image: autoDraw = True
+45.1100 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'block': 5, 'trial': 12, 'image': 'faces/known/known_86.jpg', 'type': 'known', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+45.1138 	EXP 	faces_image: autoDraw = False
+46.0930 	EXP 	fixation: autoDraw = True
+47.0599 	WARNING 	Requested image 'faces/known/known_86.jpg' not found but similar filename 'faces/known/known_86.png' exists. This will be used instead but changing the filename is advised.
+47.0900 	INFO 	Keyboard events cleared
+47.0897 	EXP 	fixation: autoDraw = False
+47.0897 	EXP 	fixation: autoDraw = False
+47.0897 	EXP 	faces_image: image = 'faces/known/known_86.jpg'
+47.0897 	EXP 	faces_image: autoDraw = True
+47.9533 	DATA 	Keypress: space
+49.0610 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'block': 5, 'trial': 13, 'image': 'faces/known/known_141.jpg', 'type': 'known', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+49.0653 	EXP 	faces_image: autoDraw = False
+50.0490 	EXP 	fixation: autoDraw = True
+50.9730 	WARNING 	Requested image 'faces/known/known_141.jpg' not found but similar filename 'faces/known/known_141.png' exists. This will be used instead but changing the filename is advised.
+51.0362 	INFO 	Keyboard events cleared
+51.0360 	EXP 	fixation: autoDraw = False
+51.0360 	EXP 	fixation: autoDraw = False
+51.0360 	EXP 	faces_image: image = 'faces/known/known_141.jpg'
+51.0360 	EXP 	faces_image: autoDraw = True
+52.9763 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'block': 5, 'trial': 14, 'image': 'faces/unknown/unknown_217.jpg', 'type': 'unknown', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+52.9805 	EXP 	faces_image: autoDraw = False
+53.9595 	EXP 	fixation: autoDraw = True
+54.8978 	INFO 	Keyboard events cleared
+54.8975 	EXP 	fixation: autoDraw = False
+54.8975 	EXP 	fixation: autoDraw = False
+54.8975 	EXP 	faces_image: image = 'faces/unknown/unknown_217.jpg'
+54.8975 	EXP 	faces_image: autoDraw = True
+56.8475 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'block': 5, 'trial': 15, 'image': 'faces/known/known_139.jpg', 'type': 'known', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+56.8513 	EXP 	faces_image: autoDraw = False
+57.8358 	EXP 	fixation: autoDraw = True
+58.4298 	WARNING 	Requested image 'faces/known/known_139.jpg' not found but similar filename 'faces/known/known_139.png' exists. This will be used instead but changing the filename is advised.
+58.4808 	INFO 	Keyboard events cleared
+58.4804 	EXP 	fixation: autoDraw = False
+58.4804 	EXP 	fixation: autoDraw = False
+58.4804 	EXP 	faces_image: image = 'faces/known/known_139.jpg'
+58.4804 	EXP 	faces_image: autoDraw = True
+59.4505 	DATA 	Keypress: space
+60.4308 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'block': 5, 'trial': 16, 'image': 'faces/known/known_134.jpg', 'type': 'known', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+60.4346 	EXP 	faces_image: autoDraw = False
+61.4181 	EXP 	fixation: autoDraw = True
+62.2976 	WARNING 	Requested image 'faces/known/known_134.jpg' not found but similar filename 'faces/known/known_134.png' exists. This will be used instead but changing the filename is advised.
+62.3272 	INFO 	Keyboard events cleared
+62.3269 	EXP 	fixation: autoDraw = False
+62.3269 	EXP 	fixation: autoDraw = False
+62.3269 	EXP 	faces_image: image = 'faces/known/known_134.jpg'
+62.3269 	EXP 	faces_image: autoDraw = True
+62.9541 	DATA 	Keypress: space
+64.3018 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'block': 5, 'trial': 17, 'image': 'faces/unknown/unknown_93.jpg', 'type': 'unknown', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+64.3056 	EXP 	faces_image: autoDraw = False
+65.2851 	EXP 	fixation: autoDraw = True
+65.9240 	INFO 	Keyboard events cleared
+65.9235 	EXP 	fixation: autoDraw = False
+65.9235 	EXP 	fixation: autoDraw = False
+65.9235 	EXP 	faces_image: image = 'faces/unknown/unknown_93.jpg'
+65.9235 	EXP 	faces_image: autoDraw = True
+67.8752 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'block': 5, 'trial': 18, 'image': 'faces/known/known_55.jpg', 'type': 'known', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+67.8794 	EXP 	faces_image: autoDraw = False
+68.8624 	EXP 	fixation: autoDraw = True
+69.5532 	WARNING 	Requested image 'faces/known/known_55.jpg' not found but similar filename 'faces/known/known_55.png' exists. This will be used instead but changing the filename is advised.
+69.5844 	INFO 	Keyboard events cleared
+69.5841 	EXP 	fixation: autoDraw = False
+69.5841 	EXP 	fixation: autoDraw = False
+69.5841 	EXP 	faces_image: image = 'faces/known/known_55.jpg'
+69.5841 	EXP 	faces_image: autoDraw = True
+70.2515 	DATA 	Keypress: space
+71.5558 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'block': 5, 'trial': 19, 'image': 'faces/known/known_37.jpg', 'type': 'known', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+71.5597 	EXP 	faces_image: autoDraw = False
+72.5430 	EXP 	fixation: autoDraw = True
+73.4821 	WARNING 	Requested image 'faces/known/known_37.jpg' not found but similar filename 'faces/known/known_37.png' exists. This will be used instead but changing the filename is advised.
+73.5387 	INFO 	Keyboard events cleared
+73.5383 	EXP 	fixation: autoDraw = False
+73.5383 	EXP 	fixation: autoDraw = False
+73.5383 	EXP 	faces_image: image = 'faces/known/known_37.jpg'
+73.5383 	EXP 	faces_image: autoDraw = True
+74.2170 	DATA 	Keypress: space
+75.4848 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'block': 5, 'trial': 20, 'image': 'faces/known/known_24.jpg', 'type': 'known', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+75.4887 	EXP 	faces_image: autoDraw = False
+76.4721 	EXP 	fixation: autoDraw = True
+77.3320 	WARNING 	Requested image 'faces/known/known_24.jpg' not found but similar filename 'faces/known/known_24.png' exists. This will be used instead but changing the filename is advised.
+77.3888 	INFO 	Keyboard events cleared
+77.3885 	EXP 	fixation: autoDraw = False
+77.3885 	EXP 	fixation: autoDraw = False
+77.3885 	EXP 	faces_image: image = 'faces/known/known_24.jpg'
+77.3885 	EXP 	faces_image: autoDraw = True
+78.2740 	DATA 	Keypress: space
+79.3349 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'block': 5, 'trial': 21, 'image': 'faces/unknown/unknown_290.jpg', 'type': 'unknown', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+79.3388 	EXP 	faces_image: autoDraw = False
+80.3180 	EXP 	fixation: autoDraw = True
+81.3110 	INFO 	Keyboard events cleared
+81.3107 	EXP 	fixation: autoDraw = False
+81.3107 	EXP 	fixation: autoDraw = False
+81.3107 	EXP 	faces_image: image = 'faces/unknown/unknown_290.jpg'
+81.3107 	EXP 	faces_image: autoDraw = True
+83.2600 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'block': 5, 'trial': 22, 'image': 'faces/known/known_122.jpg', 'type': 'known', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+83.2640 	EXP 	faces_image: autoDraw = False
+84.2435 	EXP 	fixation: autoDraw = True
+85.2053 	WARNING 	Requested image 'faces/known/known_122.jpg' not found but similar filename 'faces/known/known_122.png' exists. This will be used instead but changing the filename is advised.
+85.2334 	INFO 	Keyboard events cleared
+85.2329 	EXP 	fixation: autoDraw = False
+85.2329 	EXP 	fixation: autoDraw = False
+85.2329 	EXP 	faces_image: image = 'faces/known/known_122.jpg'
+85.2329 	EXP 	faces_image: autoDraw = True
+85.8423 	DATA 	Keypress: space
+87.2164 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'block': 5, 'trial': 23, 'image': 'faces/unknown/unknown_125.jpg', 'type': 'unknown', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+87.2232 	EXP 	faces_image: autoDraw = False
+88.1971 	EXP 	fixation: autoDraw = True
+89.0564 	INFO 	Keyboard events cleared
+89.0561 	EXP 	fixation: autoDraw = False
+89.0561 	EXP 	fixation: autoDraw = False
+89.0561 	EXP 	faces_image: image = 'faces/unknown/unknown_125.jpg'
+89.0561 	EXP 	faces_image: autoDraw = True
+91.0016 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'block': 5, 'trial': 24, 'image': 'faces/known/known_115.jpg', 'type': 'known', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+91.0056 	EXP 	faces_image: autoDraw = False
+91.9888 	EXP 	fixation: autoDraw = True
+92.7437 	WARNING 	Requested image 'faces/known/known_115.jpg' not found but similar filename 'faces/known/known_115.png' exists. This will be used instead but changing the filename is advised.
+92.7763 	INFO 	Keyboard events cleared
+92.7760 	EXP 	fixation: autoDraw = False
+92.7760 	EXP 	fixation: autoDraw = False
+92.7760 	EXP 	faces_image: image = 'faces/known/known_115.jpg'
+92.7760 	EXP 	faces_image: autoDraw = True
+93.7070 	DATA 	Keypress: space
+94.7473 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'block': 5, 'trial': 25, 'image': 'faces/unknown/unknown_258.jpg', 'type': 'unknown', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+94.7514 	EXP 	faces_image: autoDraw = False
+95.7307 	EXP 	fixation: autoDraw = True
+96.6188 	INFO 	Keyboard events cleared
+96.6186 	EXP 	fixation: autoDraw = False
+96.6186 	EXP 	fixation: autoDraw = False
+96.6186 	EXP 	faces_image: image = 'faces/unknown/unknown_258.jpg'
+96.6186 	EXP 	faces_image: autoDraw = True
+98.5640 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'block': 5, 'trial': 26, 'image': 'faces/known/known_118.jpg', 'type': 'known', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+98.5679 	EXP 	faces_image: autoDraw = False
+99.5515 	EXP 	fixation: autoDraw = True
+100.3360 	WARNING 	Requested image 'faces/known/known_118.jpg' not found but similar filename 'faces/known/known_118.png' exists. This will be used instead but changing the filename is advised.
+100.3731 	INFO 	Keyboard events cleared
+100.3727 	EXP 	fixation: autoDraw = False
+100.3727 	EXP 	fixation: autoDraw = False
+100.3727 	EXP 	faces_image: image = 'faces/known/known_118.jpg'
+100.3727 	EXP 	faces_image: autoDraw = True
+101.0749 	DATA 	Keypress: space
+102.3393 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'block': 5, 'trial': 27, 'image': 'faces/unknown/unknown_206.jpg', 'type': 'unknown', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+102.3432 	EXP 	faces_image: autoDraw = False
+103.3223 	EXP 	fixation: autoDraw = True
+104.0860 	INFO 	Keyboard events cleared
+104.0850 	EXP 	fixation: autoDraw = False
+104.0850 	EXP 	fixation: autoDraw = False
+104.0850 	EXP 	faces_image: image = 'faces/unknown/unknown_206.jpg'
+104.0850 	EXP 	faces_image: autoDraw = True
+106.0349 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'block': 5, 'trial': 28, 'image': 'faces/known/known_119.jpg', 'type': 'known', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+106.0389 	EXP 	faces_image: autoDraw = False
+107.0221 	EXP 	fixation: autoDraw = True
+107.6319 	WARNING 	Requested image 'faces/known/known_119.jpg' not found but similar filename 'faces/known/known_119.png' exists. This will be used instead but changing the filename is advised.
+107.6638 	INFO 	Keyboard events cleared
+107.6633 	EXP 	fixation: autoDraw = False
+107.6633 	EXP 	fixation: autoDraw = False
+107.6633 	EXP 	faces_image: image = 'faces/known/known_119.jpg'
+107.6633 	EXP 	faces_image: autoDraw = True
+108.3853 	DATA 	Keypress: space
+109.6349 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'block': 5, 'trial': 29, 'image': 'faces/known/known_113.jpg', 'type': 'known', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+109.6388 	EXP 	faces_image: autoDraw = False
+110.6179 	EXP 	fixation: autoDraw = True
+111.2227 	WARNING 	Requested image 'faces/known/known_113.jpg' not found but similar filename 'faces/known/known_113.png' exists. This will be used instead but changing the filename is advised.
+111.2543 	INFO 	Keyboard events cleared
+111.2540 	EXP 	fixation: autoDraw = False
+111.2540 	EXP 	fixation: autoDraw = False
+111.2540 	EXP 	faces_image: image = 'faces/known/known_113.jpg'
+111.2540 	EXP 	faces_image: autoDraw = True
+112.2108 	DATA 	Keypress: space
+113.2266 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'block': 5, 'trial': 30, 'image': 'faces/unknown/unknown_63.jpg', 'type': 'unknown', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+113.2286 	EXP 	faces_image: autoDraw = False
+114.2080 	EXP 	fixation: autoDraw = True
+114.9973 	INFO 	Keyboard events cleared
+114.9970 	EXP 	fixation: autoDraw = False
+114.9970 	EXP 	fixation: autoDraw = False
+114.9970 	EXP 	faces_image: image = 'faces/unknown/unknown_63.jpg'
+114.9970 	EXP 	faces_image: autoDraw = True
+116.9433 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'block': 5, 'trial': 31, 'image': 'faces/unknown/unknown_207.jpg', 'type': 'unknown', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+116.9471 	EXP 	faces_image: autoDraw = False
+117.9305 	EXP 	fixation: autoDraw = True
+118.9163 	INFO 	Keyboard events cleared
+118.9161 	EXP 	fixation: autoDraw = False
+118.9161 	EXP 	fixation: autoDraw = False
+118.9161 	EXP 	faces_image: image = 'faces/unknown/unknown_207.jpg'
+118.9161 	EXP 	faces_image: autoDraw = True
+120.8643 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'block': 5, 'trial': 32, 'image': 'faces/known/known_130.jpg', 'type': 'known', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+120.8680 	EXP 	faces_image: autoDraw = False
+121.8470 	EXP 	fixation: autoDraw = True
+122.8236 	WARNING 	Requested image 'faces/known/known_130.jpg' not found but similar filename 'faces/known/known_130.png' exists. This will be used instead but changing the filename is advised.
+122.8543 	INFO 	Keyboard events cleared
+122.8539 	EXP 	fixation: autoDraw = False
+122.8539 	EXP 	fixation: autoDraw = False
+122.8539 	EXP 	faces_image: image = 'faces/known/known_130.jpg'
+122.8539 	EXP 	faces_image: autoDraw = True
+123.7472 	DATA 	Keypress: space
+124.8263 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'block': 5, 'trial': 33, 'image': 'faces/unknown/unknown_51.jpg', 'type': 'unknown', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+124.8304 	EXP 	faces_image: autoDraw = False
+125.8096 	EXP 	fixation: autoDraw = True
+126.6963 	INFO 	Keyboard events cleared
+126.6960 	EXP 	fixation: autoDraw = False
+126.6960 	EXP 	fixation: autoDraw = False
+126.6960 	EXP 	faces_image: image = 'faces/unknown/unknown_51.jpg'
+126.6960 	EXP 	faces_image: autoDraw = True
+128.6432 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'block': 5, 'trial': 34, 'image': 'faces/known/known_52.jpg', 'type': 'known', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+128.6473 	EXP 	faces_image: autoDraw = False
+129.6265 	EXP 	fixation: autoDraw = True
+130.2820 	WARNING 	Requested image 'faces/known/known_52.jpg' not found but similar filename 'faces/known/known_52.png' exists. This will be used instead but changing the filename is advised.
+130.3174 	INFO 	Keyboard events cleared
+130.3172 	EXP 	fixation: autoDraw = False
+130.3172 	EXP 	fixation: autoDraw = False
+130.3172 	EXP 	faces_image: image = 'faces/known/known_52.jpg'
+130.3172 	EXP 	faces_image: autoDraw = True
+131.1456 	DATA 	Keypress: space
+132.2817 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'block': 5, 'trial': 35, 'image': 'faces/known/known_133.jpg', 'type': 'known', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+132.2846 	EXP 	faces_image: autoDraw = False
+133.2725 	EXP 	fixation: autoDraw = True
+134.2051 	WARNING 	Requested image 'faces/known/known_133.jpg' not found but similar filename 'faces/known/known_133.png' exists. This will be used instead but changing the filename is advised.
+134.2375 	INFO 	Keyboard events cleared
+134.2371 	EXP 	fixation: autoDraw = False
+134.2371 	EXP 	fixation: autoDraw = False
+134.2371 	EXP 	faces_image: image = 'faces/known/known_133.jpg'
+134.2371 	EXP 	faces_image: autoDraw = True
+135.1611 	DATA 	Keypress: space
+136.2055 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'block': 5, 'trial': 36, 'image': 'faces/unknown/unknown_78.jpg', 'type': 'unknown', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+136.2094 	EXP 	faces_image: autoDraw = False
+137.1929 	EXP 	fixation: autoDraw = True
+138.1430 	INFO 	Keyboard events cleared
+138.1426 	EXP 	fixation: autoDraw = False
+138.1426 	EXP 	fixation: autoDraw = False
+138.1426 	EXP 	faces_image: image = 'faces/unknown/unknown_78.jpg'
+138.1426 	EXP 	faces_image: autoDraw = True
+140.0890 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'block': 5, 'trial': 37, 'image': 'faces/known/known_50.jpg', 'type': 'known', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+140.0930 	EXP 	faces_image: autoDraw = False
+141.0720 	EXP 	fixation: autoDraw = True
+141.8691 	WARNING 	Requested image 'faces/known/known_50.jpg' not found but similar filename 'faces/known/known_50.png' exists. This will be used instead but changing the filename is advised.
+141.8962 	INFO 	Keyboard events cleared
+141.8959 	EXP 	fixation: autoDraw = False
+141.8959 	EXP 	fixation: autoDraw = False
+141.8959 	EXP 	faces_image: image = 'faces/known/known_50.jpg'
+141.8959 	EXP 	faces_image: autoDraw = True
+142.7387 	DATA 	Keypress: space
+143.8745 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'block': 5, 'trial': 38, 'image': 'faces/known/known_129.jpg', 'type': 'known', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+143.8785 	EXP 	faces_image: autoDraw = False
+144.8555 	EXP 	fixation: autoDraw = True
+145.6856 	WARNING 	Requested image 'faces/known/known_129.jpg' not found but similar filename 'faces/known/known_129.png' exists. This will be used instead but changing the filename is advised.
+145.7487 	INFO 	Keyboard events cleared
+145.7485 	EXP 	fixation: autoDraw = False
+145.7485 	EXP 	fixation: autoDraw = False
+145.7485 	EXP 	faces_image: image = 'faces/known/known_129.jpg'
+145.7485 	EXP 	faces_image: autoDraw = True
+146.6994 	DATA 	Keypress: space
+147.6889 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'block': 5, 'trial': 39, 'image': 'faces/unknown/unknown_52.jpg', 'type': 'unknown', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+147.6928 	EXP 	faces_image: autoDraw = False
+148.6727 	EXP 	fixation: autoDraw = True
+149.6921 	INFO 	Keyboard events cleared
+149.6917 	EXP 	fixation: autoDraw = False
+149.6917 	EXP 	fixation: autoDraw = False
+149.6917 	EXP 	faces_image: image = 'faces/unknown/unknown_52.jpg'
+149.6917 	EXP 	faces_image: autoDraw = True
+151.6469 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'block': 5, 'trial': 40, 'image': 'faces/known/known_71.jpg', 'type': 'known', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+151.6511 	EXP 	faces_image: autoDraw = False
+152.6343 	EXP 	fixation: autoDraw = True
+153.2275 	WARNING 	Requested image 'faces/known/known_71.jpg' not found but similar filename 'faces/known/known_71.png' exists. This will be used instead but changing the filename is advised.
+153.2581 	INFO 	Keyboard events cleared
+153.2578 	EXP 	fixation: autoDraw = False
+153.2578 	EXP 	fixation: autoDraw = False
+153.2578 	EXP 	faces_image: image = 'faces/known/known_71.jpg'
+153.2578 	EXP 	faces_image: autoDraw = True
+154.0898 	DATA 	Keypress: space
+155.2306 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'block': 5, 'trial': 41, 'image': 'faces/known/known_56.jpg', 'type': 'known', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+155.2344 	EXP 	faces_image: autoDraw = False
+156.2139 	EXP 	fixation: autoDraw = True
+156.8989 	WARNING 	Requested image 'faces/known/known_56.jpg' not found but similar filename 'faces/known/known_56.png' exists. This will be used instead but changing the filename is advised.
+156.9256 	INFO 	Keyboard events cleared
+156.9253 	EXP 	fixation: autoDraw = False
+156.9253 	EXP 	fixation: autoDraw = False
+156.9253 	EXP 	faces_image: image = 'faces/known/known_56.jpg'
+156.9253 	EXP 	faces_image: autoDraw = True
+157.6585 	DATA 	Keypress: space
+158.9024 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'block': 5, 'trial': 42, 'image': 'faces/unknown/unknown_203.jpg', 'type': 'unknown', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+158.9054 	EXP 	faces_image: autoDraw = False
+159.8889 	EXP 	fixation: autoDraw = True
+160.9306 	INFO 	Keyboard events cleared
+160.9303 	EXP 	fixation: autoDraw = False
+160.9303 	EXP 	fixation: autoDraw = False
+160.9303 	EXP 	faces_image: image = 'faces/unknown/unknown_203.jpg'
+160.9303 	EXP 	faces_image: autoDraw = True
+162.8765 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'block': 5, 'trial': 43, 'image': 'faces/known/known_59.jpg', 'type': 'known', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+162.8804 	EXP 	faces_image: autoDraw = False
+163.8637 	EXP 	fixation: autoDraw = True
+164.6216 	WARNING 	Requested image 'faces/known/known_59.jpg' not found but similar filename 'faces/known/known_59.png' exists. This will be used instead but changing the filename is advised.
+164.6561 	INFO 	Keyboard events cleared
+164.6556 	EXP 	fixation: autoDraw = False
+164.6556 	EXP 	fixation: autoDraw = False
+164.6556 	EXP 	faces_image: image = 'faces/known/known_59.jpg'
+164.6556 	EXP 	faces_image: autoDraw = True
+165.3150 	DATA 	Keypress: space
+166.6220 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'block': 5, 'trial': 44, 'image': 'faces/unknown/unknown_45.jpg', 'type': 'unknown', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+166.6262 	EXP 	faces_image: autoDraw = False
+167.6094 	EXP 	fixation: autoDraw = True
+168.3089 	INFO 	Keyboard events cleared
+168.3086 	EXP 	fixation: autoDraw = False
+168.3086 	EXP 	fixation: autoDraw = False
+168.3086 	EXP 	faces_image: image = 'faces/unknown/unknown_45.jpg'
+168.3086 	EXP 	faces_image: autoDraw = True
+170.2599 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'block': 5, 'trial': 45, 'image': 'faces/unknown/unknown_130.jpg', 'type': 'unknown', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+170.2636 	EXP 	faces_image: autoDraw = False
+171.2430 	EXP 	fixation: autoDraw = True
+172.0459 	INFO 	Keyboard events cleared
+172.0456 	EXP 	fixation: autoDraw = False
+172.0456 	EXP 	fixation: autoDraw = False
+172.0456 	EXP 	faces_image: image = 'faces/unknown/unknown_130.jpg'
+172.0456 	EXP 	faces_image: autoDraw = True
+174.0019 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'block': 5, 'trial': 46, 'image': 'faces/known/known_65.jpg', 'type': 'known', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+174.0053 	EXP 	faces_image: autoDraw = False
+174.9846 	EXP 	fixation: autoDraw = True
+175.8883 	WARNING 	Requested image 'faces/known/known_65.jpg' not found but similar filename 'faces/known/known_65.png' exists. This will be used instead but changing the filename is advised.
+175.9164 	INFO 	Keyboard events cleared
+175.9157 	EXP 	fixation: autoDraw = False
+175.9157 	EXP 	fixation: autoDraw = False
+175.9157 	EXP 	faces_image: image = 'faces/known/known_65.jpg'
+175.9157 	EXP 	faces_image: autoDraw = True
+176.7145 	DATA 	Keypress: space
+177.8890 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'block': 5, 'trial': 47, 'image': 'faces/unknown/unknown_49.jpg', 'type': 'unknown', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+177.8930 	EXP 	faces_image: autoDraw = False
+178.8762 	EXP 	fixation: autoDraw = True
+179.9082 	INFO 	Keyboard events cleared
+179.9080 	EXP 	fixation: autoDraw = False
+179.9080 	EXP 	fixation: autoDraw = False
+179.9080 	EXP 	faces_image: image = 'faces/unknown/unknown_49.jpg'
+179.9080 	EXP 	faces_image: autoDraw = True
+181.8512 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'block': 5, 'trial': 48, 'image': 'faces/unknown/unknown_2.jpg', 'type': 'unknown', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+181.8553 	EXP 	faces_image: autoDraw = False
+182.8386 	EXP 	fixation: autoDraw = True
+183.6248 	INFO 	Keyboard events cleared
+183.6244 	EXP 	fixation: autoDraw = False
+183.6244 	EXP 	fixation: autoDraw = False
+183.6244 	EXP 	faces_image: image = 'faces/unknown/unknown_2.jpg'
+183.6244 	EXP 	faces_image: autoDraw = True
+185.5682 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'block': 5, 'trial': 49, 'image': 'faces/known/known_36.jpg', 'type': 'known', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+185.5722 	EXP 	faces_image: autoDraw = False
+186.5556 	EXP 	fixation: autoDraw = True
+187.4163 	WARNING 	Requested image 'faces/known/known_36.jpg' not found but similar filename 'faces/known/known_36.png' exists. This will be used instead but changing the filename is advised.
+187.4667 	INFO 	Keyboard events cleared
+187.4665 	EXP 	fixation: autoDraw = False
+187.4665 	EXP 	fixation: autoDraw = False
+187.4665 	EXP 	faces_image: image = 'faces/known/known_36.jpg'
+187.4665 	EXP 	faces_image: autoDraw = True
+188.2037 	DATA 	Keypress: space
+189.4182 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'block': 5, 'trial': 50, 'image': 'faces/known/known_78.jpg', 'type': 'known', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+189.4222 	EXP 	faces_image: autoDraw = False
+190.4055 	EXP 	fixation: autoDraw = True
+191.3441 	WARNING 	Requested image 'faces/known/known_78.jpg' not found but similar filename 'faces/known/known_78.png' exists. This will be used instead but changing the filename is advised.
+191.3774 	INFO 	Keyboard events cleared
+191.3770 	EXP 	fixation: autoDraw = False
+191.3770 	EXP 	fixation: autoDraw = False
+191.3770 	EXP 	faces_image: image = 'faces/known/known_78.jpg'
+191.3770 	EXP 	faces_image: autoDraw = True
+191.9290 	DATA 	Keypress: space
+193.3475 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'block': 5, 'trial': 51, 'image': 'faces/known/known_74.jpg', 'type': 'known', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+193.3514 	EXP 	faces_image: autoDraw = False
+194.3309 	EXP 	fixation: autoDraw = True
+195.0226 	WARNING 	Requested image 'faces/known/known_74.jpg' not found but similar filename 'faces/known/known_74.png' exists. This will be used instead but changing the filename is advised.
+195.0548 	INFO 	Keyboard events cleared
+195.0543 	EXP 	fixation: autoDraw = False
+195.0543 	EXP 	fixation: autoDraw = False
+195.0543 	EXP 	faces_image: image = 'faces/known/known_74.jpg'
+195.0543 	EXP 	faces_image: autoDraw = True
+195.6989 	DATA 	Keypress: space
+197.0262 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'block': 5, 'trial': 52, 'image': 'faces/unknown/unknown_209.jpg', 'type': 'unknown', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+197.0339 	EXP 	faces_image: autoDraw = False
+198.0164 	EXP 	fixation: autoDraw = True
+198.6817 	INFO 	Keyboard events cleared
+198.6813 	EXP 	fixation: autoDraw = False
+198.6813 	EXP 	fixation: autoDraw = False
+198.6813 	EXP 	faces_image: image = 'faces/unknown/unknown_209.jpg'
+198.6813 	EXP 	faces_image: autoDraw = True
+200.6350 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'block': 5, 'trial': 53, 'image': 'faces/known/known_121.jpg', 'type': 'known', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+200.6386 	EXP 	faces_image: autoDraw = False
+201.6220 	EXP 	fixation: autoDraw = True
+202.2569 	WARNING 	Requested image 'faces/known/known_121.jpg' not found but similar filename 'faces/known/known_121.png' exists. This will be used instead but changing the filename is advised.
+202.2913 	INFO 	Keyboard events cleared
+202.2910 	EXP 	fixation: autoDraw = False
+202.2910 	EXP 	fixation: autoDraw = False
+202.2910 	EXP 	faces_image: image = 'faces/known/known_121.jpg'
+202.2910 	EXP 	faces_image: autoDraw = True
+203.0576 	DATA 	Keypress: space
+204.2600 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'block': 5, 'trial': 54, 'image': 'faces/unknown/unknown_178.jpg', 'type': 'unknown', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+204.2640 	EXP 	faces_image: autoDraw = False
+205.2434 	EXP 	fixation: autoDraw = True
+206.1036 	INFO 	Keyboard events cleared
+206.1033 	EXP 	fixation: autoDraw = False
+206.1033 	EXP 	fixation: autoDraw = False
+206.1033 	EXP 	faces_image: image = 'faces/unknown/unknown_178.jpg'
+206.1033 	EXP 	faces_image: autoDraw = True
+208.0492 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'block': 5, 'trial': 55, 'image': 'faces/known/known_1.jpg', 'type': 'known', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+208.0581 	EXP 	faces_image: autoDraw = False
+209.0383 	EXP 	fixation: autoDraw = True
+210.0025 	WARNING 	Requested image 'faces/known/known_1.jpg' not found but similar filename 'faces/known/known_1.png' exists. This will be used instead but changing the filename is advised.
+210.0529 	INFO 	Keyboard events cleared
+210.0525 	EXP 	fixation: autoDraw = False
+210.0525 	EXP 	fixation: autoDraw = False
+210.0525 	EXP 	faces_image: image = 'faces/known/known_1.jpg'
+210.0525 	EXP 	faces_image: autoDraw = True
+212.0056 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'block': 5, 'trial': 56, 'image': 'faces/known/known_149.jpg', 'type': 'known', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+212.0095 	EXP 	faces_image: autoDraw = False
+212.9886 	EXP 	fixation: autoDraw = True
+213.8067 	WARNING 	Requested image 'faces/known/known_149.jpg' not found but similar filename 'faces/known/known_149.png' exists. This will be used instead but changing the filename is advised.
+213.8432 	INFO 	Keyboard events cleared
+213.8429 	EXP 	fixation: autoDraw = False
+213.8429 	EXP 	fixation: autoDraw = False
+213.8429 	EXP 	faces_image: image = 'faces/known/known_149.jpg'
+213.8429 	EXP 	faces_image: autoDraw = True
+214.4334 	DATA 	Keypress: space
+215.8098 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'block': 5, 'trial': 57, 'image': 'faces/unknown/unknown_74.jpg', 'type': 'unknown', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+215.8136 	EXP 	faces_image: autoDraw = False
+216.7930 	EXP 	fixation: autoDraw = True
+217.7183 	INFO 	Keyboard events cleared
+217.7180 	EXP 	fixation: autoDraw = False
+217.7180 	EXP 	fixation: autoDraw = False
+217.7180 	EXP 	faces_image: image = 'faces/unknown/unknown_74.jpg'
+217.7180 	EXP 	faces_image: autoDraw = True
+219.6598 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'block': 5, 'trial': 58, 'image': 'faces/unknown/unknown_107.jpg', 'type': 'unknown', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+219.6638 	EXP 	faces_image: autoDraw = False
+220.6433 	EXP 	fixation: autoDraw = True
+221.3567 	INFO 	Keyboard events cleared
+221.3564 	EXP 	fixation: autoDraw = False
+221.3564 	EXP 	fixation: autoDraw = False
+221.3564 	EXP 	faces_image: image = 'faces/unknown/unknown_107.jpg'
+221.3564 	EXP 	faces_image: autoDraw = True
+223.3056 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'block': 5, 'trial': 59, 'image': 'faces/unknown/unknown_213.jpg', 'type': 'unknown', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+223.3095 	EXP 	faces_image: autoDraw = False
+224.2888 	EXP 	fixation: autoDraw = True
+225.0913 	INFO 	Keyboard events cleared
+225.0910 	EXP 	fixation: autoDraw = False
+225.0910 	EXP 	fixation: autoDraw = False
+225.0910 	EXP 	faces_image: image = 'faces/unknown/unknown_213.jpg'
+225.0910 	EXP 	faces_image: autoDraw = True
+227.0347 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'block': 5, 'trial': 60, 'image': 'faces/unknown/unknown_98.jpg', 'type': 'unknown', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+227.0386 	EXP 	faces_image: autoDraw = False
+228.0182 	EXP 	fixation: autoDraw = True
+228.9332 	INFO 	Keyboard events cleared
+228.9330 	EXP 	fixation: autoDraw = False
+228.9330 	EXP 	fixation: autoDraw = False
+228.9330 	EXP 	faces_image: image = 'faces/unknown/unknown_98.jpg'
+228.9330 	EXP 	faces_image: autoDraw = True
+230.8847 	EXP 	faces_image: autoDraw = False
+230.8847 	EXP 	Endding: autoDraw = True
+231.9819 	EXP 	Endding: autoDraw = False
+231.9819 	EXP 	Endding: autoDraw = False
+231.9821 	EXP 	project: status = STOPPED
+232.0210 	INFO 	saved data to 'C:\\Users\\bcc35\\Downloads\\BCI-P300-project-main (1)\\BCI-P300-project-main\\data/102_project_2025-05-17_14h53.54.414.csv'
+232.0226 	INFO 	saved data to C:\Users\bcc35\Downloads\BCI-P300-project-main (1)\BCI-P300-project-main\data/102_project_2025-05-17_14h53.54.414.psydat
